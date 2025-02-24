@@ -1,0 +1,23 @@
+""" Faca um programa que pergunte a velocidade do carro do
+usu´ario. Caso ultrapasse 120km/h, exiba uma mensagem
+dizendo que o usu´ario foi multado. Nesse caso, exiba o valor
+da multa, cobrando R $ 5,00 por km acima de 120kmh """
+
+# armazenamento de dados
+
+velocidade: "" 
+
+# Entrada de dados
+
+velocidade = int(input("velocidade registrada: "))
+
+# ProcessAmento de dados
+
+excesso = velocidade - 120
+multa = excesso*5
+
+# Saída de dados
+if velocidade > 120:
+    print("voce foi multado em: " + str(multa))
+else: 
+    print("voce nao foi multado")
