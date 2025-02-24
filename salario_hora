@@ -1,0 +1,8 @@
+horas_trabalhadas = int(input("escreva o numero de horas trabalhadas"))
+salario_bruto = 40*horas_trabalhadas
+desconto = salario_bruto*0.3
+salario_liquido = salario_bruto - desconto
+
+print("\n" + "salario bruto:" + str(salario_bruto) + "\n",
+     "desconto:" + str(desconto) + "\n",
+     "salario liquido:" + str(salario_liquido))
